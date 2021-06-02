@@ -1,0 +1,178 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'zh' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Funny-Skirmish-Online-2020.3.8/Heroes of Kocmocraft
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13485
+Successfully changed project path to: D:/Funny-Skirmish-Online-2020.3.8/Heroes of Kocmocraft
+D:/Funny-Skirmish-Online-2020.3.8/Heroes of Kocmocraft
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 176.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Funny-Skirmish-Online-2020.3.8/Heroes of Kocmocraft/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Program Files/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001137 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.820 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011097 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+TypeRef ResolutionScope not yet handled (52) for .ResponseFileData in image D:\Funny-Skirmish-Online-2020.3.8\Heroes of Kocmocraft\Library\PackageCache\com.unity.incrementalcompiler@0.0.42-preview.30\Editor\Plugins\Unity.PureCSharpTests.dll
+Error: Could not load signature of UnityEditor.Compilation.CustomCompiler:ParseResponseFileViaReflection due to: Could not resolve type with token 01000035 (from typeref, class/assembly ResponseFileData, ) assembly: type:ResponseFileData member:(null) signature:<none>
+
+Unloading broken assembly Packages/com.unity.incrementalcompiler/Editor/Plugins/Unity.PureCSharpTests.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ (0,0): [06/02/2021 04:40:11.008 下午] CompilationOptions switching current directory to :D:\Funny-Skirmish-Online-2020.3.8\Heroes of Kocmocraft
+ (0,0): [06/02/2021 04:40:11.015 下午] Unity incremental compiler server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+  at System.Linq.Enumerable.Select[TSource,TResult] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] selector) [0x0000d] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.Compilation.CodeAnalysisManager.BuildAnalyzers () [0x0006e] in <f284bc37beb04e42836ac1e95ef12b00>:0 
+  at UnityEditor.Compilation.CodeAnalysisManager.InitializeSingleton () [0x0000d] in <f284bc37beb04e42836ac1e95ef12b00>:0 
+  at UnityEditor.Compilation.RoslynCompilerBootstrap..cctor () [0x0001e] in <f284bc37beb04e42836ac1e95ef12b00>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Broker listening on tcp://127.0.0.1:13786
++[LocalIncrementalCompilerService] @ 127.0.0.1:13795
+ (0,0): [06/02/2021 04:40:11.089 下午] watchdog active on pid: 41796
+Mono: successfully reloaded assembly
+- Completed reload, in  2.308 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 3789.
+Total: 7.697000 ms (FindLiveObjects: 0.459400 ms CreateObjectMapping: 0.107200 ms MarkObjects: 6.904300 ms  DeleteObjects: 0.224100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Core 1.prefab
+  artifactKey: Guid(3d70b938f4a877c44b698bbae38d6374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core 1.prefab using Guid(3d70b938f4a877c44b698bbae38d6374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eafdf07a677c57045745771bc6635e') in 0.058487 seconds
+  Import took 0.065545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Dev/15798-cubeatlas.png
+  artifactKey: Guid(4fc669e0bda22414b89b9934681bcbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/15798-cubeatlas.png using Guid(4fc669e0bda22414b89b9934681bcbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71add2f2912c58775f9a21ed92bd7235') in 0.064082 seconds
+  Import took 0.069944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_Dev/SaveAwesome-O Prototype_mesh.asset
+  artifactKey: Guid(dfc62a2d02e124f40a8e725089c4ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/SaveAwesome-O Prototype_mesh.asset using Guid(dfc62a2d02e124f40a8e725089c4ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de72d04ee39f12974ad5a190680399a') in 0.499551 seconds
+  Import took 0.505584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Dev/rat-headXRay 1.mat
+  artifactKey: Guid(99a36d0d138bce748b8826f0b8837a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/rat-headXRay 1.mat using Guid(99a36d0d138bce748b8826f0b8837a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd19672bddc85b05de062542d8d5775f') in 0.246514 seconds
+  Import took 0.252695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/_Dev/SaveGroup - Hand_mesh.asset
+  artifactKey: Guid(9d5c86388277459499e58b1b86f73a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/SaveGroup - Hand_mesh.asset using Guid(9d5c86388277459499e58b1b86f73a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06665b16462fc47c7a12163cd074173a') in 0.026176 seconds
+  Import took 0.032345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/_Dev/SaveGroup - Main_mesh.asset
+  artifactKey: Guid(ad1bf6a1ae64ca844ba822cdd74b81fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/SaveGroup - Main_mesh.asset using Guid(ad1bf6a1ae64ca844ba822cdd74b81fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60861119cebd5410c2098094257103ce') in 0.012752 seconds
+  Import took 0.018892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/_Dev/SaveGroup - Arm_mesh.asset
+  artifactKey: Guid(31433a88014842a4694e3306e2de93b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/SaveGroup - Arm_mesh.asset using Guid(31433a88014842a4694e3306e2de93b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd668c2fa545cc09a02cf078d60b6d6') in 0.013167 seconds
+  Import took 0.019534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046395 seconds.
+  path: Assets/_Dev/Airport52.unity
+  artifactKey: Guid(8550443b6bbe02f4994899f445e3c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Dev/Airport52.unity using Guid(8550443b6bbe02f4994899f445e3c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9d6ed2055adde061d58ce3b41af133') in 0.007122 seconds
+  Import took 0.014529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009031 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.9 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3840.
+Total: 7.506000 ms (FindLiveObjects: 0.392300 ms CreateObjectMapping: 0.104200 ms MarkObjects: 6.808800 ms  DeleteObjects: 0.199300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+ (0,0): [06/02/2021 04:43:58.923 下午] watchdog triggered an exit
