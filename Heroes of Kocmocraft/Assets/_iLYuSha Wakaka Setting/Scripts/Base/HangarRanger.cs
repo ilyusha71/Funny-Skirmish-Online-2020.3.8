@@ -103,7 +103,7 @@ namespace Kocmoca
             public TextMeshProUGUI textTitle;
             public TextMeshProUGUI[] item;
         }
-        public class DataBlock: PanelBlock
+        public class DataBlock : PanelBlock
         {
             internal ModuleData moduleData;
         }
@@ -230,9 +230,12 @@ namespace Kocmoca
 
         private void Start()
         {
-            
-        }
 
+        }
+        void Updated()
+        {
+
+        }
 
         void Loading()
         {
